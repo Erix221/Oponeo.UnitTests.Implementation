@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Oponeo.UnitTests.Implementation
+namespace Oponeo.UnitTests.Implementation.Algorithms
 {
     public class FizzBuzzImplementation
     {

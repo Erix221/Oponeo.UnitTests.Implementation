@@ -1,18 +1,18 @@
-using Oponeo.UnitTests.Implementation;
+using Oponeo.UnitTests.Implementation.Algorithms;
 
-namespace Oponeo.UnitTests.ImplementationTests
+namespace Oponeo.UnitTests.ImplementationTests.Algorithms
 {
     [TestClass]
     public class FizzBuzzImplementationTests
     {
         [TestMethod]
-        [DataRow(1,"1")]
-        [DataRow(3,"Fizz")]
-        [DataRow(5,"Buzz")]
-        [DataRow(15,"FizzBuzz")]
+        [DataRow(1, "1")]
+        [DataRow(3, "Fizz")]
+        [DataRow(5, "Buzz")]
+        [DataRow(15, "FizzBuzz")]
         public void Returns_Proper_String_Given_I(int i, string expectedResult)
         {
-            //Arange
+            //Arrange
             FizzBuzzImplementation fizzBuzz = new FizzBuzzImplementation();
 
             //Act
